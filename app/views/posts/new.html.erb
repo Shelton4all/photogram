@@ -1,0 +1,5 @@
+<%= simple_form_for @post do |f| %>
+  <%= f.input :image, wrapper_html: { class: 'image' } %>
+  <%= f.input :caption, wrapper_html: { class: 'caption' } %>
+  <%= f.button :submit %>
+<% end %>
